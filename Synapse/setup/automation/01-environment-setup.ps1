@@ -1,3 +1,4 @@
+Set-AzContext a9ca08c9-922b-485d-b992-040248586c0d
 $InformationPreference = "Continue"
 $IsCloudLabs = Test-Path C:\LabFiles\AzureCreds.ps1;
 
