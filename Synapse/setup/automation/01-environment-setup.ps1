@@ -49,7 +49,7 @@ if($IsCloudLabs){
 
        
 
-        $resourceGroupName = asrg;
+        $resourceGroupName = "asrg";
         
         $userName = ((az ad signed-in-user show) | ConvertFrom-JSON).UserPrincipalName
         
